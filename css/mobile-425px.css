@@ -1,0 +1,109 @@
+@import url("tablet-768px.css");
+/*==for imports ^^===*/
+
+#main-container header{
+	height: 100vh;
+}
+
+#main-container header h1{
+    padding-top: 33vh;
+}
+
+#main-container header h1 span{
+    font-size: 8.5vw;
+    padding: 4px 12px;
+    border: 1.5vw solid #fff;
+}
+
+.logo span{
+	 font-size: 26px;
+	 padding-top: 3px;
+}
+
+.kicker{
+	font-size: 3.7vw;
+}
+
+/*=======for navigation ======*/
+
+.menu-trigger{
+    display: block;
+    margin-right: 23px; 
+    float: right;
+
+    height: 45px;
+    padding-top: 16px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    
+    position: relative;
+}
+
+#search-bar nav{
+	display: none;
+    height: auto;
+    width: 130px;
+    background-color: #fff;
+    z-index: 9;
+
+    position: absolute;
+    right: 0px;
+    top: 45px;
+    margin-right: 0;
+    box-shadow: 1px 1px 2.5px rgba(0,0,0,0.2), -1px 0 2.5px rgba(0,0,0,0.2);
+
+    background-color: #fcfcfc;
+    opacity: 0.97;
+
+
+}
+#search-bar nav a, #search-bar nav a:visited{
+    display: block;
+    margin: 0;
+    text-align: center;
+    padding: 7px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    font-size: 13.5px; 
+
+    color: #424242;
+}
+
+#search-bar nav a:active{
+    color: #fff;
+    background-color: #3a3a3a;
+}
+/*=======for navigation end======*/
+
+
+/*===for sidebar===*/
+#fixed-sidebar {
+
+    display: none;
+}
+
+/*=======footer=======*/
+footer nav a{
+	font-size: 14.2px;
+	padding:  0 5px 0 8px;
+}
+
+footer p{
+	text-align: center;
+	font-size: 13px;
+	padding: 0 5px 0 8px;
+}
+
+
+@media screen and (max-width: 320px){
+    footer p{
+       font-size: 12px;
+    }
+
+    footer nav a{
+        font-size: 12.5px;
+        padding:  0 2px 0 4px;
+    }
+}
